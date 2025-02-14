@@ -5,7 +5,7 @@ const app = express();
 const config = {
     user: 'sa',
     password: 'azureadmin', // Add your password here
-    server: '20.203.16.20',
+    server: '20.203.16.20,3014',  // Add port number after comma
     database: 'Focus8190',
     options: {
         encrypt: true,
