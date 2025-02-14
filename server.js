@@ -10,7 +10,8 @@ const config = {
     database: 'Focus8190',
     options: {
         encrypt: true,
-        trustServerCertificate: true
+        trustServerCertificate: true,
+        port: 3014                    // Add port explicitly inside options
     }
 };
 
