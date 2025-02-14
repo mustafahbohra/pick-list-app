@@ -1,3 +1,4 @@
+or this code
 const express = require('express');
 const sql = require('mssql');
 const app = express();
@@ -10,8 +11,7 @@ const config = {
     database: 'Focus8190',
     options: {
         encrypt: true,
-        trustServerCertificate: true,
-        port: 3014                    // Add port explicitly inside options
+        trustServerCertificate: true
     }
 };
 
@@ -38,5 +38,5 @@ app.post('/generate', async (req, res) => {
 
 const PORT = 3000;
 app.listen(PORT, () => {
-    console.log(`Server running at http://localhost:${PORT}`);
+    console.log(Server running at http://localhost:${PORT});
 });
