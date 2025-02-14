@@ -1,4 +1,3 @@
-or this code
 const express = require('express');
 const sql = require('mssql');
 const app = express();
