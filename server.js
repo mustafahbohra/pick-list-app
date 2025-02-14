@@ -6,6 +6,7 @@ const config = {
     user: 'sa',
     password: 'azureadmin',           // Your password here
     server: '20.203.16.20',           // IP address only
+    port: 3014,                       // Port added separately
     database: 'Focus8190',
     options: {
         encrypt: true,
